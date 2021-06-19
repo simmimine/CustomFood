@@ -1,0 +1,11 @@
+main: me.simmimine.CustomFood.CustomFood
+name: CustomFood
+version: 1.0.1
+author: simmimine
+api-version: 1.16
+
+commands:
+  CustomCook:
+    aliases: cc
+    description: Implements custom food and recipes into vanilla minecraft
+    usage: "To open the recipes gui use: /custom cook or /cc"

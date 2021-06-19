@@ -1,0 +1,36 @@
+"Mashed Potato Recipe":
+  key:
+    slotInt: [12,13,14,21,22,23,30,31,32]
+    materialType: BAKED_POTATO
+
+"Apple Pie Recipe":
+  key:
+    slotInt: [12,13,14,30,31,32]
+    materialType: WHEAT
+  key2:
+    slotInt: [21,22,23]
+    materialType: APPLE
+
+"Carrot Cake Recipe":
+  key:
+    slotInt: [12,13,14,21,22,23]
+    materialType: CARROT
+  key2:
+    slotInt: [30,31,32]
+    materialType: WHEAT
+
+"Beetroot Jam Recipe":
+  key:
+    slotInt: [12,13,14,21,23,30,31,32]
+    materialType: BEETROOT
+  key2:
+    slotInt: [22]
+    materialType: GLASS_BOTTLE
+
+"Cup Of Tea Recipe":
+  key:
+    slotInt: [12,13,14,21,23,30,31,32]
+    materialType: WHEAT_SEEDS
+  key2:
+    slotInt: [22]
+    materialType: GLASS_BOTTLE
