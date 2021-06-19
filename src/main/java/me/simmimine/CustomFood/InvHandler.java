@@ -25,7 +25,6 @@ public class InvHandler implements Listener {
     @EventHandler(priority= EventPriority.HIGH)
     public void onInventoryClick(InventoryClickEvent event) {
         Player player = (Player) event.getWhoClicked();
-        Bukkit.getLogger().info("Event was run.");
         if (event.getView().getTitle().equalsIgnoreCase(ChatColor.GOLD + "Custom Food Recipes") && !event.getClickedInventory().equals(player.getInventory())) {
             if (event.getSlot() == 18) {
                 player.openInventory(inv.get(0));
